@@ -82,7 +82,30 @@
     </nav>
 
     <main class="flex-shrink-0">
-      <div class="container"></div>
+      <div class="container-fluid h-100 minHeight">
+        <div class="row row-cols-1 h-100 minHeight gy-2">
+          <div class="col col-md-12 order-md-1 order-last">
+            <div class="bg-secondary text-light h-100 p-2">
+              <h5>Column One</h5>
+            </div>
+          </div>
+          <div class="col col-md-4 order-md-2 order-3">
+            <div class="bg-danger text-light h-100 p-2">
+              <h5>Column Two</h5>
+            </div>
+          </div>
+          <div class="col col-md-4 order-md-3 order-2">
+            <div class="bg-warning text-light h-100 p-2">
+              <h5>Column Three</h5>
+            </div>
+          </div>
+          <div class="col col-md-4 order-first order-md-4">
+            <div class="bg-primary text-light h-100 p-2">
+              <h5>Column Four</h5>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">
       <div class="container-fluid text-center">
